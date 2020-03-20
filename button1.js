@@ -1,8 +1,14 @@
-var content = document.getElementById("content");
-var button = document.getElementById("show-more");
+const content = document.getElementById("content");
+const button = document.getElementById('show-more');
 
-if(content.classList.contains('hidden')){
-    content.className = '';
-} else {
-  content.className = 'hidden'; 
-}; 
+handleClick = () => {
+    if(content.classList.contains('hidden')){
+        //shrink the box
+        content.className = "";
+        button.innerHTML = "Show Less";
+    } else {
+        //expand the box
+        content.className = "hidden";
+        button.innerHTML = "Show More";
+    }
+} 
