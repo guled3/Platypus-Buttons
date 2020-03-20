@@ -1,23 +1,21 @@
 body{
     background: #fef;
 }
-content{
+
+#contentg {
+    font-family: 'Calibri';
+    font-size: 40px;
+    text-align: center;
+}
+#content{
     width: 400px;
     background: #abc;
     padding: 20px;
     padding-top: 0;
-    font-family: 'Times New Roman';
+    font-family: 'Calibri';
     font-size: 18px;
     color: #444;
     margin: 0 auto;
-
-    max-height: 270px;
-    overflow: hidden;
-
-    /* Set transitions up. */
-    webkit transition: max-height 0.7s;
-    moz-transition: max-height 0.7s;
-    transition: max-height 0.7s;
 }
 
 
@@ -27,11 +25,11 @@ content{
     font-family: 'Franklin Gothic Medium';
     display: block;
     width: 140px;
-    font-size: 24 px;
-    text transforms: uppercase;
-    padding 10px;
-    text align: center;
-    margin 20px auto;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
     cursor: pointer;
 }
 
@@ -47,6 +45,5 @@ input {
 }
 
 .hidden {
-    display: none;
-  }
-  
+    visibility: hidden;
+}
