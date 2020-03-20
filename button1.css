@@ -6,7 +6,7 @@ content{
     background: #abc;
     padding: 20px;
     padding-top: 0;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Times New Roman';
     font-size: 18px;
     color: #444;
     margin: 0 auto;
@@ -20,9 +20,6 @@ content{
     transition: max-height 0.7s;
 }
 
-#content.open{
-    max-height: 1000px;
-}
 
 #button{
     background: #1435;
@@ -48,3 +45,8 @@ input {
     text-align: center;
     margin: 0 auto;
 }
+
+.hidden {
+    display: none;
+  }
+  
